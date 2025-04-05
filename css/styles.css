@@ -1,12 +1,13 @@
 /* Importing a Google Font */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	font-family: Montserrat, sans-serif;
+	background-color: #f8fcf8;
 }
 
 /* Changing the background colour for the header */
@@ -15,11 +16,25 @@ header {
 	background-color: #000060;
 }
 
+h1, h2, h3, h4, h5 {
+	font-family: "Bebas Neue", sans-serif;
+}
+
+.text-header {
+	color: #16433b;
+}
+
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #16433b;
 }
+
+.nav-link {
+	color: #FFFFFF;
+	font-family: "Bebas Neue", sans-serif;
+}
+
 
 /* Effect on social media buttons */
 
@@ -30,7 +45,7 @@ footer a:hover {
 /* Corporate navbar */
 
 #navbar-corporate a.active {
-	color: #800000;
+	color: #77b84b;
 	font-weight: bold;
 }
 

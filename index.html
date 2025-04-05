@@ -13,7 +13,7 @@
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <title>PRJ4 Base Group Template &mdash; Landing Page</title>
+    <title>Wild Wheels</title>
 
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
 
@@ -37,42 +37,92 @@
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="example.html">Example</a>
+              <a class="nav-link" href="routes.html">Routes</a>
             </li>
+			 <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About Us</a>
+			  </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                UX Patterns
+                Corporate
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="hero.html">Hero Section</a></li>
-                <li><a class="dropdown-item" href="carousel.html">Carousel</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
-                <li><a class="dropdown-item" href="cards.html">Cards</a></li>
+                <li><a class="dropdown-item" href="corporate.html#marketing">Marketing</a></li>
+				<li><a class="dropdown-item" href="corporate.html#content">Content</a></li>
+				<li><a class="dropdown-item" href="corporate.html#management">Management</a></li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">PRJ4 Guide</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="corporate.html">Corporate</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- End of navigation bar -->
-
+    <!-- Dit is een comment -->
     <!-- Start of main placeholder in landing page -->
     <main class="h-100 d-flex flex-column justify-content-center align-items-center">
-      <img class="mb-4" src="images/2gether-transparent.png">
-      <h1>2Gether</h1>
-      <h5 class="fst-italic mb-5">Coming soon…</h5>
+      <h1>Check out these camper routes!</h1>
+		
+		<section class="container-fluid p-0">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/slovenia.jpg" class="d-block mx-auto w-100" alt="...">
+            <div class="carousel-caption">
+              <h1 class="d-none d-md-block">Slovenia</h1>
+              <p>
+                <a href="routes.html#slovenia" class="btn btn-dark my-md-2">See More</a>
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/italy.jpg" class="d-block mx-auto w-100" alt="...">
+            <div class="carousel-caption">
+              <h1 class="d-none d-md-block">Italy</h1>
+              <p>
+                <a href="routes.html#italy" class="btn btn-dark my-md-2">See More</a>
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/portugal.jpg" class="d-block mx-auto w-100" alt="...">
+            <div class="carousel-caption">
+              <h1 class="d-none d-md-block">Portugal</h1>
+              <p>
+                <a href="routes.html#portugal" class="btn btn-dark my-md-2">See More</a>
+              </p>
+            </div>
+          </div>
+			<div class="carousel-item">
+            <img src="images/norway.jpg" class="d-block mx-auto w-100" alt="...">
+            <div class="carousel-caption">
+              <h1 class="d-none d-md-block">Norway</h1>
+              <p>
+                <a href="routes.html#norway" class="btn btn-dark my-md-2">See More</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- End of carrousel -->
+		
+	  <h2 class="text-header" id="about">About Us</h2>
       <div class="container text-center">
-        <p>This is a page you can use as a placeholder for your future website.</p>
-        <p>Once published (which should be at the end of week 5 of the project), it can be fully integrated within your marketing campaign.</p>
-        <p>You will then replace this landing page by a full website.</p>
-        <p>To build your website, you can start with the <a href="example.html">example</a> or pick and mix elements from the UX pattern pages of this website (check menu above).</p>
+        <p>We are wild wheels lorem ipsum whatever</p> 
       </div>
     </main>
     <!-- End of main placeholder -->
