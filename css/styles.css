@@ -57,3 +57,6 @@ footer a:hover {
 		0 0 .2em white,
 		0 0 .5em white;
 }
+main {
+  margin-top: 100px; /* Adjust the value depending on the height of your navbar */
+}
