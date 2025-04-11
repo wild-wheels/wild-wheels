@@ -33,9 +33,8 @@ h1, h2, h3, h4, h5 {
 .nav-link {
 	color: #FFFFFF;
 	font-family: "Bebas Neue", sans-serif;
+	font-size: 2rem; 
 }
-
-
 /* Effect on social media buttons */
 
 footer a:hover {
@@ -56,7 +55,4 @@ footer a:hover {
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
-}
-main {
-  margin-top: 100px; /* Adjust the value depending on the height of your navbar */
 }
