@@ -16,10 +16,16 @@ header {
 	background-color: #000060;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3 {
 	font-family: "Bebas Neue", sans-serif;
 }
 
+h4 {
+	font-family: Montserrat, sans-serif;
+	color:#77B84B;
+	font-weight: bold;
+	font-size:18px;
+	}
 .text-header {
 	color: #16433b;
 }
