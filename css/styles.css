@@ -69,14 +69,13 @@ footer a:hover {
   }
 
   .icon-box {
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     background-color: white;
-    border: 2px solid #ccc;
+    border: 5px solid #16433b;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 
   .icon-box img {
@@ -87,9 +86,8 @@ footer a:hover {
   .footer {
     background-color: #77B84B;  
     color: white;  
-  	padding: 20px;
-    text-align: center;
-    bottom: 0;  
+  	padding:10 px;
+    text-align: center; 
     width: 100%;
     z-index: 100; 
   }
@@ -108,5 +106,4 @@ footer a:hover {
   .footer-link {
     margin-top: 10px;
     color: #FFFFFF;
-    text-decoration: none;
 }
