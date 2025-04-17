@@ -82,6 +82,10 @@ footer a:hover {
     max-height: 120%;
 	
   }
+.narrow-text {
+  max-width: 600px; /* of bijvoorbeeld 50% */
+  margin: 0 auto;
+}
 /* Footer */
   .footer {
     background-color: #77B84B;  
