@@ -18,7 +18,6 @@
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
 
     <!-- End of Google Analytics code -->
-
   </head>
   <body class="h-100 d-flex flex-column">
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
@@ -35,9 +34,17 @@
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="routes.html">Routes</a>
-            </li>
+            <li class="nav-item dropdown">
+  			  <a class="nav-link dropdown-toggle" href="#" id="routesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    			Routes
+ 			 </a>
+ 			 <ul class="dropdown-menu" aria-labelledby="routesDropdown">
+    			<li><a class="dropdown-item" href="routes.html#slovenia">Slovenia</a></li>
+   				<li><a class="dropdown-item" href="routes.html#italy">Italy</a></li>
+    			<li><a class="dropdown-item" href="routes.html#portugal">Portugal</a></li>
+    			<li><a class="dropdown-item" href="routes.html#norway">Norway</a></li>
+  			</ul>
+		</li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Corporate
@@ -60,6 +67,7 @@
 	   <br>
       <h1>Find your inspiration for your next camper adventure!</h1>
 		<section class="container-fluid p-0">
+	<!--Start of carousel-->
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -116,6 +124,7 @@
       </div>
     </section>
     <!-- End of carrousel -->
+	<!-- Start of icon boxen -->
 	   <br>
 	   <br>
 	<div class="icon-container">
@@ -133,6 +142,7 @@
     <img src="images/icons/sustainability-icon.svg" alt="Icon 3">
   </div>
 </div>
+	   <!-- End of icon boxen -->
 	   <br>
 	   <h1 class="text-header">Our vision</h1> 
 		<div class="container text-center">
@@ -143,6 +153,7 @@
 	<br>	
 		Our vision? A world where everyone has the freedom to explore without worries. You choose the destination: we will help you get there. 
 	</p>
+	<!-- Start of ooter -->
 	   </div>
 	<br>
 	   <footer class="footer">
@@ -153,8 +164,8 @@
 </a>																 
   </div>
 </footer>
+	 <!-- End of footer -->
     </main>
     <!-- End of main placeholder -->
-	
   </body>
 </html>
