@@ -1,6 +1,4 @@
 /* Importing a Google Font */
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Changing the main font and background colour */
@@ -10,12 +8,7 @@ body {
 	background-color: #f8fcf8;
 }
 
-/* Changing the background colour for the header */
-
-header {
-	background-color: #000060;
-}
-
+/* Fonts for H1, H2, H3 and H4*/
 h1, h2, h3 {
 	font-family: "Bebas Neue", sans-serif;
 }
@@ -26,9 +19,12 @@ h4 {
 	font-weight: bold;
 	font-size:18px;
 	}
+
+/* Header color*/
 .text-header {
 	color: #16433b;
 }
+
 /* Changing the background color for the navigation bar */
 
 .navbar {
@@ -40,6 +36,7 @@ h4 {
 	font-family: "Bebas Neue", sans-serif;
 	font-size: 2rem; 
 }
+
 /* Effect on social media buttons */
 
 footer a:hover {
@@ -54,13 +51,13 @@ footer a:hover {
 }
 
 /* Hero Section shadow */
-
 .white-shadow {
 	text-shadow: -.01em -.01em .01em white,
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
 }
+
 /* icon boxen */
   .icon-container {
     display: flex;
@@ -80,12 +77,14 @@ footer a:hover {
   .icon-box img {
     max-width: 120%;
     max-height: 120%;
-	
   }
+
+/* Narrows text*/
 .narrow-text {
-  max-width: 600px; /* of bijvoorbeeld 50% */
+  max-width: 600px; 
   margin: 0 auto;
 }
+
 /* Footer */
   .footer {
     background-color: #77B84B;  
@@ -101,12 +100,14 @@ footer a:hover {
     justify-content: center;
     align-items: center;
   }
+
 	.footer-text {
   font-family: "Bebas Neue", sans-serif;
   font-size: 40px;
   margin: 0;
   }
+
   .footer-link {
-    margin-top: 10px;
+    margin-top:10px;
     color: #FFFFFF;
 }
